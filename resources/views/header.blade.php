@@ -47,11 +47,11 @@
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="">Home</a></li>
-					<li><a href="produk.php">Produk</a></li>
+					<li><a href="{{ route('home') }}">Home</a></li>
+					<li><a href="{{ route('produk') }}">Produk</a></li>
 					<li><a href="{{ route('tentang-kami') }}">Tentang Kami</a></li>
 					<li><a href="{{  route('manual-aplikasi')}}">Manual Aplikasi</a></li>
-                    <li><a href="keranjang.php"><i class="glyphicon glyphicon-shopping-cart"></i> <b></b></a></li>
+                    <a href="{{ route('keranjang.index') }}">Keranjang</a>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
 							<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
